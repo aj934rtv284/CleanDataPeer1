@@ -1,0 +1,80 @@
+Column Name,Data Type,Domain,Description Acceleration  and Gyroscope readings for 30 Subjects 
+tBodyAcc-mean()-X,num,time,Mean of the Body Acceleration with respect to the X-Axis of the Phone
+tBodyAcc-mean()-Y,num,time,Mean of the Body Acceleration with respect to the Y-Axis of the Phone
+tBodyAcc-mean()-Z,num,time,Mean of the Body Acceleration with respect to the Z-Axis of the Phone
+tBodyAcc-std()-X,num,time,Standard Deviation of the Body Acceleration with respect to the X-Axis of the Phone
+tBodyAcc-std()-Y,num,time,Standard Deviation of the Body Acceleration with respect to the Y-Axis of the Phone
+tBodyAcc-std()-Z,num,time,Standard Deviation of the Body Acceleration with respect to the Z-Axis of the Phone
+tGravityAcc-mean()-X,num,time,Mean of the Gravity Acceleration with respect to the X-Axis of the Phone
+tGravityAcc-mean()-Y,num,time,
+tGravityAcc-mean()-Z,num,time,
+tGravityAcc-std()-X,num,time,Standard Deviation of the Gravity Acceleration with respect to the X-Axis of the Phone
+tGravityAcc-std()-Y,num,time,
+tGravityAcc-std()-Z,num,time,
+tBodyAccJerk-mean()-X,num,time,Mean of the Body Acceleration Jerk with respect to the X-Axis of the Phone
+tBodyAccJerk-mean()-Y,num,time,
+tBodyAccJerk-mean()-Z,num,time,
+tBodyAccJerk-std()-X,num,time,Standard Deviation of the Body Acceleration Jerk with respect to the X-Axis of the Phone
+tBodyAccJerk-std()-Y,num,time,
+tBodyAccJerk-std()-Z,num,time,
+tBodyGyro-mean()-X,num,time,Mean of the Body Angular Speed with respect to the X-Axis of the Phone
+tBodyGyro-mean()-Y,num,time,
+tBodyGyro-mean()-Z,num,time,
+tBodyGyro-std()-X,num,time,Standard Deviation of the Body Angular Speed with respect to the X-Axis of the Phone
+tBodyGyro-std()-Y,num,time,
+tBodyGyro-std()-Z,num,time,
+tBodyGyroJerk-mean()-X,num,time,Mean of the Body Angular Speed Jerk with respect to the X-Axis of the Phone
+tBodyGyroJerk-mean()-Y,num,time,
+tBodyGyroJerk-mean()-Z,num,time,
+tBodyGyroJerk-std()-X,num,time,Standard Deviation of the Body Angular Speed Jerk with respect to the X-Axis of the Phone
+tBodyGyroJerk-std()-Y,num,time,
+tBodyGyroJerk-std()-Z,num,time,
+tBodyAccMag-mean(),num,time,Mean of the Body Acceleration Magnitude with respect to the Phone
+tBodyAccMag-std(),num,time,
+tGravityAccMag-mean(),num,time,Mean of the Gravity Acceleration Magnitude with respect to the Phone
+tGravityAccMag-std(),num,time,
+tBodyAccJerkMag-mean(),num,time,Mean of the Body Acceleration Jerk Magnitude with respect to the Phone
+tBodyAccJerkMag-std(),num,time,
+tBodyGyroMag-mean(),num,time,Mean of the Body Angular Speed Magnitude with respect to the Phone
+tBodyGyroMag-std(),num,time,
+tBodyGyroJerkMag-mean(),num,time,Mean of the Body Angular Speed Jerk Magnitude with respect to the Phone
+tBodyGyroJerkMag-std(),num,time,
+fBodyAcc-mean()-X,num,frequency,Fast Fourier Transform for Mean of the Body Acceleration with respect to the X-Axis of the Phone
+fBodyAcc-mean()-Y,num,frequency,
+fBodyAcc-mean()-Z,num,frequency,
+fBodyAcc-std()-X,num,frequency,Fast Fourier Transform for Standard Deviation of the Body Acceleration with respect to the X-Axis of the Phone
+fBodyAcc-std()-Y,num,frequency,
+fBodyAcc-std()-Z,num,frequency,
+fBodyAcc-meanFreq()-X,num,frequency,Fast Fourier Transform for Mean Frequency of the Body Acceleration with respect to the X-Axis of the Phone
+fBodyAcc-meanFreq()-Y,num,frequency,
+fBodyAcc-meanFreq()-Z,num,frequency,
+fBodyAccJerk-mean()-X,num,frequency,Fast Fourier Transform for Mean of the Body Acceleration Jerk with respect to the X-Axis of the Phone
+fBodyAccJerk-mean()-Y,num,frequency,
+fBodyAccJerk-mean()-Z,num,frequency,
+fBodyAccJerk-std()-X,num,frequency,Fast Fourier Transform for Standard Deviation of the Body Acceleration Jerk with respect to the X-Axis of the Phone
+fBodyAccJerk-std()-Y,num,frequency,
+fBodyAccJerk-std()-Z,num,frequency,
+fBodyAccJerk-meanFreq()-X,num,frequency,Fast Fourier Transform for Mean Frequency of the Body Acceleration Jerk with respect to the X-Axis of the Phone
+fBodyAccJerk-meanFreq()-Y,num,frequency,
+fBodyAccJerk-meanFreq()-Z,num,frequency,
+fBodyGyro-mean()-X,num,frequency,Fast Fourier Transform for Mean of the Body Angular Speed  with respect to the X-Axis of the Phone
+fBodyGyro-mean()-Y,num,frequency,
+fBodyGyro-mean()-Z,num,frequency,
+fBodyGyro-std()-X,num,frequency,Fast Fourier Transform for Standard Deviation of the Body Angular Speed  with respect to the X-Axis of the Phone
+fBodyGyro-std()-Y,num,frequency,
+fBodyGyro-std()-Z,num,frequency,
+fBodyGyro-meanFreq()-X,num,frequency,Fast Fourier Transform for Mean Frequency of the Body Angular Speed  with respect to the X-Axis of the Phone
+fBodyGyro-meanFreq()-Y,num,frequency,
+fBodyGyro-meanFreq()-Z,num,frequency,
+fBodyAccMag-mean(),num,frequency,Fast Fourier Transform for Mean of the Body Acceleration Magnitude with respect to the Phone
+fBodyAccMag-std(),num,frequency,
+fBodyAccMag-meanFreq(),num,frequency,
+fBodyBodyAccJerkMag-mean(),num,frequency,Fast Fourier Transform for Mean of the Body Acceleration Jerk Magnitude with respect to the Phone
+fBodyBodyAccJerkMag-std(),num,frequency,
+fBodyBodyAccJerkMag-meanFreq(),num,frequency,Fast Fourier Transform for Mean of the Body Acceleration Jerk Magnitude with respect to the Phone
+fBodyBodyGyroMag-mean(),num,frequency,Fast Fourier Transform for Mean of the Body Angular Speed Magnitude with respect to the Phone
+fBodyBodyGyroMag-std(),num,frequency,
+fBodyBodyGyroMag-meanFreq(),num,frequency,
+fBodyBodyGyroJerkMag-mean(),num,frequency,Fast Fourier Transform for Mean of the Body Angular Speed Jerk Magnitude with respect to the Phone
+fBodyBodyGyroJerkMag-std(),num,frequency,
+fBodyBodyGyroJerkMag-meanFreq(),num,frequency,Fast Fourier Transform for Mean Frequency of the Body Angular Speed  Magnitude with respect to the Phone

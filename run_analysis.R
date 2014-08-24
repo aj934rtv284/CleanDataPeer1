@@ -60,7 +60,7 @@ names(df_test) <- (features$V2)
 
 ### Subset to STD | MEAN columns
 
-std_mean <- grep("std|mean", features$V2, perl=TRUE, value=TRUE)
+std_mean <- grep("std()|mean()", features$V2, perl=TRUE, value=TRUE)
 
 std_mean
 
@@ -70,7 +70,8 @@ df_train_std_mean <- df_train[logic_std_mean]
 
 df_test_std_mean <- df_test[logic_std_mean]
 
-
+dim(df_train_std_mean)
+dim(df_test_std_mean)
 
 # 3. Uses descriptive activity names to name the activities in the data set
 # 4. Appropriately labels the data set with descriptive variable names. 
@@ -107,5 +108,19 @@ colnames(Mean_of_Data_By_Subject_Activity)[2] <- "Group.By.Activity"
 
 
 
-write.table(Mean_of_Data_By_Subject_Activity, "d:/data/Mean_of_Data_By_Subject_Activity.txt", sep=",", row.name=FALSE) 
+write.table(Mean_of_Data_By_Subject_Activity, "./Mean_of_Data_By_Subject_Activity.txt", sep=",", row.name=FALSE) 
 
+# knitr output
+library(knitr)
+knit("CodeBook.Rmd")
+knit("README.Rmd")
+
+# sanity check of subject/activity count
+table(Mean_of_Data_By_Subject_Activity$Group.By.Subject)
+table(Mean_of_Data_By_Subject_Activity$Group.By.Activity)
+
+str(Mean_of_Data_By_Subject_Activity$Group.By.Subject)
+str(Mean_of_Data_By_Subject_Activity$Group.By.Activity)
+
+Mean_of_Data_By_Subject_Activity$Group.By.Subject
+Mean_of_Data_By_Subject_Activity$Group.By.Activity
